@@ -1,0 +1,140 @@
+@font-face {
+    font-family: textfamily;
+    font-size: 90%;
+    //src: url("../font/GeosansLight.ttf");
+}
+
+body {
+    font-family: textfamily;
+    padding-bottom: 100px;
+}
+
+table {
+    width: 73%;
+}
+
+tr td {
+    vertical-align: top;
+    width: 50%;
+    padding-bottom: 20px;
+}
+
+.table-list {
+    width: 100%;
+}
+
+.table-list tr td {
+    vertical-align: middle;
+    width: inherit;
+    padding-bottom: 0px;
+    text-align: center;
+}
+
+.input-id {
+	border: 1px solid #ccc!important;
+    padding: 8px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 50px;
+}
+.input-phone {
+    border: 1px solid #ccc!important;
+    padding: 8px;
+    display: -webkit-inline-box;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 25px;
+}
+.input {
+    border: 1px solid #ccc!important;
+    padding: 8px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 90%;
+}
+
+.input-left {
+	width: 47%;
+}
+.input-right {
+	width: 80%;
+    padding-right: 52px;
+}
+
+.input-radio, .input-check {
+	width: 20px;
+    height: 20px;
+    position: relative;
+    top: 6px;
+}
+
+.ind0 {
+    width: 100%;
+}
+
+form {
+	//width: 55%;
+	//padding-top: 15px;
+	//padding-bottom: 80px;
+    display: block;
+    margin: 0 auto;
+    padding: 33px;
+    padding-top: 17px;
+}
+
+.ind1 {
+	padding: 15px;
+    //border: 1px solid #cacaca;
+    text-align: left;
+    margin: -2px;
+    //background-color: #ffffff;
+    display: block;
+    color: #000000; //#6d6d6d;
+    font-size: 14pt;
+    text-decoration: none;
+}
+
+.ind2 {
+	width: 46%;
+	float: right;
+	margin-top: -57px;
+}
+
+.ind3 {
+	width: 46%;
+	float: right;
+	margin-top: -132px;
+}
+
+.ind4 {
+	width: 46%;
+	float: right;
+    margin-top: -134px;
+}
+
+.centered {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.btn-submit, .btn-reset {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: textfamily;
+    cursor: pointer;
+}
+
+.btn-submit {background-color: #4CAF50;} /* Green */
+.btn-reset {background-color: #e7e7e7; color: black;} /* Gray */ 

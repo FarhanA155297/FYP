@@ -1,0 +1,33 @@
+ul.bs-box {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+ul.bs-box>li {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    cursor: pointer;
+}
+
+ul.bs-box>li>a {
+    border-bottom: 2px solid #b37eb3;
+    text-decoration: none;
+    color: black;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+ul.bs-box>li>a:hover {
+     box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+    -webkit-box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+}
+
